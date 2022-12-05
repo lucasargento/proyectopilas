@@ -91,10 +91,10 @@ def train_model(
 
             # ## LOGGING
             minibatch_loss_list.append(loss.item())
-            if not batch_idx % log_interval_batch:
-                print(f'Epoca: {epoch+1:03d}/{num_epochs:03d} '
-                      f'| Batch {batch_idx:04d}/{len(train_loader):04d} '
-                      f'| Loss: {loss:.4f}')
+            #if not batch_idx % log_interval_batch:
+            print(f'Epoca: {epoch+1:03d}/{num_epochs:03d} '
+                  f'| Batch {batch_idx:04d}/{len(train_loader):04d} '
+                  f'| Loss: {loss:.4f}')
 
         model.eval()
         with torch.no_grad():
