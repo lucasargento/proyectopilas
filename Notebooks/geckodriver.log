@@ -1,0 +1,566 @@
+1670330824989	geckodriver	INFO	Listening on 127.0.0.1:49861
+1670330825062	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49862" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilehJfbeo"
+1670330825991	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:49862/devtools/browser/4eee0782-7512-7147-98ed-66915248d8b8
+1670330828299	Marionette	INFO	Listening on port 49876
+1670330828312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670330893483	geckodriver	INFO	Listening on 127.0.0.1:49973
+1670330894000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49974" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile8sUnWX"
+1670330894463	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:49974/devtools/browser/4f3b69a1-3829-774b-b932-415f1bb3bc77
+1670330896434	Marionette	INFO	Listening on port 49981
+1670330896502	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com.ar"
+2022-12-06 09:48:19.603 firefox-bin[4017:49306] NSVisualEffectView subclass says YES to allowsVibrancy. NSVisualEffectView does not support being vibrantly blended *itself*. This may break in the future.
+1670330923999	geckodriver	INFO	Listening on 127.0.0.1:50059
+1670330924525	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50060" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileAHqv3i"
+1670330924961	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50060/devtools/browser/b75ba42b-f148-5c4f-ab6d-6d083c72fcf2
+1670330926875	Marionette	INFO	Listening on port 50067
+1670330926921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670330939996	geckodriver	INFO	Listening on 127.0.0.1:50142
+1670330940512	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50143" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilerb4He3"
+1670330940968	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50143/devtools/browser/ee4003f7-da28-a14c-ac45-7a0d0a4c46ca
+1670330943087	Marionette	INFO	Listening on port 50150
+1670330943120	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331011732	Marionette	INFO	Stopped listening on port 49876
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1670331011759	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331013630	Marionette	INFO	Stopped listening on port 49981
+1670331013655	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331015922	Marionette	INFO	Stopped listening on port 50067
+1670331015950	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+2022-12-06 09:50:27.925 firefox-bin[4106:50796] NSVisualEffectView subclass says YES to allowsVibrancy. NSVisualEffectView does not support being vibrantly blended *itself*. This may break in the future.
+1670331222916	geckodriver	INFO	Listening on 127.0.0.1:50291
+1670331223440	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50292" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileaKMllS"
+1670331224102	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50292/devtools/browser/dc7e8cd7-a600-f442-bcf3-231e483bbe28
+1670331226370	Marionette	INFO	Listening on port 50299
+1670331226463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670331286338	geckodriver	INFO	Listening on 127.0.0.1:50402
+1670331286864	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50403" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileAyWg1Y"
+1670331287391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50403/devtools/browser/5a7c89b3-bc3e-fa4c-a215-98d008124f88
+1670331289690	Marionette	INFO	Listening on port 50410
+1670331289783	Marionette	WARN	TLS certificate errors will be ignored for this session
+2022-12-06 09:55:03.880 firefox-bin[4699:59735] NSVisualEffectView subclass says YES to allowsVibrancy. NSVisualEffectView does not support being vibrantly blended *itself*. This may break in the future.
+1670331344222	geckodriver	INFO	Listening on 127.0.0.1:50514
+1670331344745	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50515" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileAyOpoh"
+1670331345209	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50515/devtools/browser/87604015-dcd0-f544-913b-ab60da195c62
+1670331347088	Marionette	INFO	Listening on port 50522
+1670331347147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670331385906	geckodriver	INFO	Listening on 127.0.0.1:50608
+1670331386425	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50609" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilePcuzqS"
+1670331386937	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50609/devtools/browser/e852f1c8-6fa6-e241-b299-a488b5f1bbb8
+1670331388756	Marionette	INFO	Listening on port 50616
+1670331388824	Marionette	WARN	TLS certificate errors will be ignored for this session
+1670331445930	geckodriver	INFO	Listening on 127.0.0.1:50711
+1670331446454	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50712" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilekzZoy1"
+1670331446920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50712/devtools/browser/64522d4b-e024-834c-bb77-4f1727af6efa
+1670331448951	Marionette	INFO	Listening on port 50719
+1670331448973	Marionette	WARN	TLS certificate errors will be ignored for this session
+2022-12-06 09:57:33.823 firefox-bin[4944:63771] NSVisualEffectView subclass says YES to allowsVibrancy. NSVisualEffectView does not support being vibrantly blended *itself*. This may break in the future.
+1670331502929	geckodriver	INFO	Listening on 127.0.0.1:50814
+1670331503455	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50815" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilefPZmV5"
+1670331503919	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50815/devtools/browser/99123e83-d0e8-4841-b13e-d7a1ee2631fb
+1670331505988	Marionette	INFO	Listening on port 50822
+1670331506063	Marionette	WARN	TLS certificate errors will be ignored for this session
+2022-12-06 09:58:32.017 firefox-bin[5028:65184] NSVisualEffectView subclass says YES to allowsVibrancy. NSVisualEffectView does not support being vibrantly blended *itself*. This may break in the future.
+1670331601087	geckodriver	INFO	Listening on 127.0.0.1:50922
+1670331601615	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50923" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile6EIwaV"
+1670331602209	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:50923/devtools/browser/72a8bb48-d7c0-ff4c-b016-b4a6b6db3f96
+1670331604787	Marionette	INFO	Listening on port 50930
+1670331604861	Marionette	WARN	TLS certificate errors will be ignored for this session
+2022-12-06 10:00:48.436 firefox-bin[5155:67378] NSVisualEffectView subclass says YES to allowsVibrancy. NSVisualEffectView does not support being vibrantly blended *itself*. This may break in the future.
+1670331672182	geckodriver	INFO	Listening on 127.0.0.1:51034
+1670331672707	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51035" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileZa2sdB"
+1670331673171	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+DevTools listening on ws://localhost:51035/devtools/browser/4de93d67-eae8-7349-9b06-24488ec47fe1
+1670331675931	Marionette	INFO	Listening on port 51042
+1670331675993	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 219: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331690792	Marionette	INFO	Stopped listening on port 50299
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1670331690820	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331692491	Marionette	INFO	Stopped listening on port 50150
+1670331692516	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331694140	Marionette	INFO	Stopped listening on port 50410
+1670331694165	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331697003	Marionette	INFO	Stopped listening on port 50522
+1670331697025	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331698630	Marionette	INFO	Stopped listening on port 50616
+1670331698651	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331700187	Marionette	INFO	Stopped listening on port 50719
+1670331700204	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331701728	Marionette	INFO	Stopped listening on port 50822
+1670331701754	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331703816	Marionette	INFO	Stopped listening on port 50930
+1670331703995	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1670331706336	Marionette	INFO	Stopped listening on port 51042
+1670331706419	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1670331984195	geckodriver	INFO	Listening on 127.0.0.1:51222
+1670331984720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51223" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileOuM6GA"
+WebDriver BiDi listening on ws://127.0.0.1:51223
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51223/devtools/browser/10e49049-8f63-48af-adaa-91297e28490e
+1670332015901	geckodriver	INFO	Listening on 127.0.0.1:51271
+1670332016410	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51272" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileRm7DlM"
+1670332017382	Marionette	INFO	Marionette enabled
+1670332017552	Marionette	INFO	Listening on port 51280
+Read port: 51280
+WebDriver BiDi listening on ws://127.0.0.1:51272
+1670332017718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileRm7DlM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51272/devtools/browser/42e47d90-ead5-4625-9d1e-b4e38d438341
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+[2022-12-06T13:07:04Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-12-06T13:07:04Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-12-06T13:07:04Z ERROR viaduct::backend::ffi] Missing HTTP status
+1670332195381	Marionette	INFO	Stopped listening on port 51280
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670332211079	geckodriver	INFO	Listening on 127.0.0.1:51504
+1670332211603	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51505" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilewwagD3"
+1670332212170	Marionette	INFO	Marionette enabled
+1670332212235	Marionette	INFO	Listening on port 51512
+WebDriver BiDi listening on ws://127.0.0.1:51505
+Read port: 51512
+1670332212430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilewwagD3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51505/devtools/browser/967c7ad9-444c-4053-92d4-a76c2374b771
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670332237431	geckodriver	INFO	Listening on 127.0.0.1:51559
+1670332237956	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51560" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilemxa3GF"
+1670332238442	Marionette	INFO	Marionette enabled
+1670332238599	Marionette	INFO	Listening on port 51567
+WebDriver BiDi listening on ws://127.0.0.1:51560
+Read port: 51567
+1670332238801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilemxa3GF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51560/devtools/browser/36b61261-b41c-47db-b99d-69bb3a2d0fb4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:775:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:656:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:775:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:656:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1037:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1037, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1037))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:363:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _sendRequestBody@resource://devtools/server/actors/network-monitor/network-observer.js:1440:7
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:574:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1440, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1440))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:363:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+1670332262631	Marionette	INFO	Stopped listening on port 51567
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670332264556	Marionette	INFO	Stopped listening on port 51512
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670332311739	geckodriver	INFO	Listening on 127.0.0.1:51617
+1670332312265	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51618" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilegTW9wM"
+1670332312767	Marionette	INFO	Marionette enabled
+1670332312926	Marionette	INFO	Listening on port 51625
+Read port: 51625
+WebDriver BiDi listening on ws://127.0.0.1:51618
+1670332313047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilegTW9wM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51618/devtools/browser/7f2412a0-663a-4d1c-a77a-1a1504ea2687
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670332360245	geckodriver	INFO	Listening on 127.0.0.1:51687
+1670332360770	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51688" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileYu97Fw"
+1670332361252	Marionette	INFO	Marionette enabled
+1670332361288	Marionette	INFO	Listening on port 51695
+Read port: 51695
+WebDriver BiDi listening on ws://127.0.0.1:51688
+1670332361429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileYu97Fw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51688/devtools/browser/9610d2a5-98b7-440d-a288-2b2d1597bfff
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670332465488	geckodriver	INFO	Listening on 127.0.0.1:51743
+1670332466011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51744" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilerV40s9"
+1670332466531	Marionette	INFO	Marionette enabled
+1670332466566	Marionette	INFO	Listening on port 51752
+Read port: 51752
+WebDriver BiDi listening on ws://127.0.0.1:51744
+1670332466731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilerV40s9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51744/devtools/browser/4f13e286-f293-4648-ae9b-1412a1c0187c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670332503723	geckodriver	INFO	Listening on 127.0.0.1:51807
+1670332504251	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51808" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileRnsRCw"
+1670332504739	Marionette	INFO	Marionette enabled
+1670332504894	Marionette	INFO	Listening on port 51815
+WebDriver BiDi listening on ws://127.0.0.1:51808
+Read port: 51815
+1670332505103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileRnsRCw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51808/devtools/browser/424eb899-3629-4fcf-ac29-33936bb07e66
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670332523117	Marionette	INFO	Stopped listening on port 51625
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670332524814	Marionette	INFO	Stopped listening on port 51695
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670332526316	Marionette	INFO	Stopped listening on port 51752
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670332528159	Marionette	INFO	Stopped listening on port 51815
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670332821773	geckodriver	INFO	Listening on 127.0.0.1:51930
+1670332822301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51931" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilewHL5Qj"
+1670332822821	Marionette	INFO	Marionette enabled
+1670332822977	Marionette	INFO	Listening on port 51938
+Read port: 51938
+WebDriver BiDi listening on ws://127.0.0.1:51931
+1670332823101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilewHL5Qj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51931/devtools/browser/03fabc88-55cb-4400-9f3d-2d7261b28808
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670332857718	geckodriver	INFO	Listening on 127.0.0.1:51991
+1670332858242	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51992" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileBxXf8N"
+1670332858723	Marionette	INFO	Marionette enabled
+1670332858759	Marionette	INFO	Listening on port 51999
+Read port: 51999
+WebDriver BiDi listening on ws://127.0.0.1:51992
+1670332858943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileBxXf8N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51992/devtools/browser/c7b0d847-5d87-4862-a3c9-3b73c38c7258
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:775:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:656:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1037:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1037, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1037))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:363:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+1670333048919	geckodriver	INFO	Listening on 127.0.0.1:52050
+1670333049438	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52051" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilev9ZeX3"
+1670333049919	Marionette	INFO	Marionette enabled
+1670333049959	Marionette	INFO	Listening on port 52058
+Read port: 52058
+WebDriver BiDi listening on ws://127.0.0.1:52051
+1670333050098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilev9ZeX3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52051/devtools/browser/15343522-fbc1-4188-9bc6-ea6b3461e239
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333052905	Marionette	INFO	Stopped listening on port 51938
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333054474	Marionette	INFO	Stopped listening on port 51999
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333080442	geckodriver	INFO	Listening on 127.0.0.1:52104
+1670333080967	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52105" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilefI9xTc"
+1670333081438	Marionette	INFO	Marionette enabled
+1670333081593	Marionette	INFO	Listening on port 52112
+Read port: 52112
+WebDriver BiDi listening on ws://127.0.0.1:52105
+1670333081694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilefI9xTc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52105/devtools/browser/617e3189-1e7c-4038-b988-db2e368e90fe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333084422	Marionette	INFO	Stopped listening on port 52058
+1670333092314	geckodriver	INFO	Listening on 127.0.0.1:52159
+1670333092844	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52160" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileLSHLNy"
+1670333093304	Marionette	INFO	Marionette enabled
+1670333093460	Marionette	INFO	Listening on port 52173
+Read port: 52173
+WebDriver BiDi listening on ws://127.0.0.1:52160
+1670333093561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofileLSHLNy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52160/devtools/browser/1517cd4e-a6cf-4b12-864e-63adab607cac
+1670333095845	Marionette	INFO	Stopped listening on port 52112
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333125891	geckodriver	INFO	Listening on 127.0.0.1:52221
+1670333126412	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52222" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile7vFm8V"
+1670333126877	Marionette	INFO	Marionette enabled
+1670333127033	Marionette	INFO	Listening on port 52229
+Read port: 52229
+WebDriver BiDi listening on ws://127.0.0.1:52222
+1670333127137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile7vFm8V/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52222/devtools/browser/4cc1d304-e92c-498a-9b72-5efd2aeb982a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333130227	Marionette	INFO	Stopped listening on port 52173
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333187865	geckodriver	INFO	Listening on 127.0.0.1:52279
+1670333188385	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52280" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile6QhDmJ"
+1670333188857	Marionette	INFO	Marionette enabled
+1670333189013	Marionette	INFO	Listening on port 52287
+WebDriver BiDi listening on ws://127.0.0.1:52280
+Read port: 52287
+1670333189228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile6QhDmJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52280/devtools/browser/a695dad8-894b-4a13-8234-4d652a62c81e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333192822	Marionette	INFO	Stopped listening on port 52229
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333215829	geckodriver	INFO	Listening on 127.0.0.1:52328
+1670333216354	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52329" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilepQe8Bo"
+1670333216841	Marionette	INFO	Marionette enabled
+1670333216875	Marionette	INFO	Listening on port 52336
+Read port: 52336
+WebDriver BiDi listening on ws://127.0.0.1:52329
+1670333217034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilepQe8Bo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52329/devtools/browser/cb760ffb-9f2b-4e12-ad73-df120bf7f905
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333279551	geckodriver	INFO	Listening on 127.0.0.1:52391
+1670333280073	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52392" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilenZoZzq"
+1670333280559	Marionette	INFO	Marionette enabled
+1670333280598	Marionette	INFO	Listening on port 52399
+Read port: 52399
+WebDriver BiDi listening on ws://127.0.0.1:52392
+1670333280744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofilenZoZzq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52392/devtools/browser/a66d5171-6c76-46c0-8867-608ee0d476c9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333283477	Marionette	INFO	Stopped listening on port 52287
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333285177	Marionette	INFO	Stopped listening on port 52336
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333315975	geckodriver	INFO	Listening on 127.0.0.1:52456
+1670333316497	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52457" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile9lX9vy"
+1670333316964	Marionette	INFO	Marionette enabled
+1670333317120	Marionette	INFO	Listening on port 52464
+Read port: 52464
+WebDriver BiDi listening on ws://127.0.0.1:52457
+1670333317223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofile9lX9vy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52457/devtools/browser/d3c02ce5-c797-4cbb-8456-a8eba331e13b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:775:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:656:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1037:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1037, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1037))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:363:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+1670333355083	Marionette	INFO	Stopped listening on port 52399
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333356658	Marionette	INFO	Stopped listening on port 52464
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670333497281	geckodriver	INFO	Listening on 127.0.0.1:52548
+1670333497806	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52549" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofiletzxgwH"
+1670333498291	Marionette	INFO	Marionette enabled
+1670333498446	Marionette	INFO	Listening on port 52556
+WebDriver BiDi listening on ws://127.0.0.1:52549
+Read port: 52556
+1670333498655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/36/xhls1xbs1676nkndj0s_rtnr0000gn/T/rust_mozprofiletzxgwH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52549/devtools/browser/434020df-2ecb-498b-990e-2dbbd2e93caf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com.ar."
+1670333519526	Marionette	INFO	Stopped listening on port 52556
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
